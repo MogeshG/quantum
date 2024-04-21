@@ -1,0 +1,63 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border: 1rem transparent;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height:auto;
+  width: 90%;
+}
+.image img {
+  width: 5rem;
+  height: 5rem;
+  margin: .5rem;
+}
+.btn {
+  width: 5rem;
+  height: 2rem;
+}
+
+.coin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: fit-content;
+  column-gap: .5rem;
+}
+.input input {
+  width: 2rem;
+  height: 1.5rem;
+}

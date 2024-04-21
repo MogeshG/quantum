@@ -1,0 +1,14 @@
+body {
+  /* background-color: rgb(173, 173, 173); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:1rem;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
